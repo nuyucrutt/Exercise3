@@ -1,0 +1,108 @@
+*{
+	margin: 10px;
+	padding: 0px;
+}
+
+.wrapper {
+    background-image: url(images/bgcontainer.jpg);
+    min-height: 1000px;
+    width:  680px;
+    margin: auto;
+}
+.wrapper #menu {
+	background-image: url(images/bgcontent.gif);
+	height: 50px;
+	width: 633px;
+	margin:  auto;
+	font-size: 20px;
+	text-align: center;
+	
+
+}
+.wrapper #menu a {
+	color:#808000;
+}
+
+.wrapper #top-image{
+  	width: 430px;
+  	height: 150px;
+
+}
+.wrapper #top-image img{
+	margin: auto;
+	padding-left: 70px;
+  	width: 550px;
+  	height: 150px;
+
+}
+.wrapper #content{
+	color: #6B8E23;
+	height: 760px;
+	padding-left: 30px;
+	padding-right: 25px;
+	font-family: gill sans mt;
+}
+
+.wrapper #content #p1 {
+height: 350px;
+padding-bottom: 35px;
+}
+
+.wrapper #content #p1 h1:first-letter {
+	display: block;
+	float: left;
+	font-size: 2.5em;
+	font-family: gluocester mt extra condensend;
+	
+}
+.wrapper #content #p1 h3 {
+	font-size: 15px;
+	font-family: Agency FB;
+	
+}
+
+.wrapper #content #p1 img{
+	border-style: dashed;
+	border-color: #9ACD32  
+	;
+}
+.wrapper #content #divider {
+	background-image: url(images/divider.gif);
+	margin: 20px auto;
+	width: 560px;
+	height: 20px;
+}
+.wrapper #content #p2 {
+	height: 350px;
+	
+}
+
+.wrapper #content #p2 blockquote {
+	font-family: Agency FB;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+
+.wrapper #content #p2 h1:first-letter {
+	display: block;
+	float: left;
+	font-size: 2.5em;
+	font-family: gluocester mt extra condensend;
+}
+.wrapper #content #p2 h3 {
+	font-size: 15px;
+	font-family: Agency FB;
+	
+}
+
+.wrapper #footer{
+	font-family: gill sans mt; 
+	color: #6B8E23;
+	background-image: url(images/bgfooter.gif);
+	height: 40px;
+	width: 632px;
+	margin: auto;
+	text-align: center;
+}
